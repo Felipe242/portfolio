@@ -1,56 +1,70 @@
-body{
-    margin: 0 auto;
-    background-color: #d7d7d7;
-    background-size: cover;
-    
-}
-header{
-    background-color: rgb(91, 167, 202);
-    padding: 50px;
-    text-align: center;
-}
-a {
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    text-decoration: none;
-   
-    
-    
-}
-a:hover{
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-}
-.bemvindo{
-    text-align: center;
-}
-h1{
-    font-family: "New Amsterdam", sans-serif;
-}
-.tudo{
-    text-align: center;
-}
-.calculadora{
-    font-size: 1.3rem;
-    color: blue;
-}
-p{
-    font-size: 1.5rem;
+/* Estiliza o corpo da página */
+body {
+    margin: 0 auto; /* Remove a margem padrão e centraliza horizontalmente (embora não seja necessário em body) */
+    background-color: #d7d7d7; /* Define a cor de fundo para cinza claro */
+    background-size: cover; /* Define que qualquer imagem de fundo deve cobrir toda a área disponível */
 }
 
-input{
-    padding: 5px;
+/* Estiliza o cabeçalho */
+header {
+    background-color: rgb(91, 167, 202); /* Define a cor de fundo para um tom de azul claro */
+    padding: 50px; /* Adiciona 50px de preenchimento ao redor do conteúdo do cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
 }
-.form {
-    padding: 10px;
+
+/* Estiliza todos os links */
+a {
+    color: rgb(0, 0, 0); /* Define a cor do texto dos links para preto */
+    padding: 10px; /* Adiciona 10px de preenchimento ao redor dos links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
 }
-footer {
-    background-color: rgb(91, 167, 202);
-    padding: 10px;
-    text-align: center;
+
+/* Estiliza os links quando o mouse passa por cima deles */
+a:hover {
+    color: rgb(0, 0, 0); /* Mantém a cor do texto dos links preta ao passar o mouse */
+    text-decoration: underline; /* Adiciona um sublinhado aos links ao passar o mouse */
 }
+
+/* Centraliza o texto de boas-vindas */
+.bemvindo {
+    text-align: center; /* Centraliza o texto com a classe 'bemvindo' */
+}
+
+/* Define a fonte para todos os elementos h1 */
+h1 {
+    font-family: "New Amsterdam", sans-serif; /* Aplica a fonte "New Amsterdam" aos títulos h1 */
+}
+
+/* Centraliza o texto em todo o conteúdo */
+.tudo {
+    text-align: center; /* Centraliza o texto dentro da div com a classe 'tudo' */
+}
+
+/* Estiliza especificamente o link para a calculadora */
 .calculadora {
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    font: size 1.3rem;
+    font-size: 1.3rem; /* Define o tamanho da fonte para 1.3rem */
+    color: blue; /* Define a cor do texto para azul */
+    font-family: sans-serif; /* Aplica a fonte sans-serif para o texto da calculadora */
+}
+
+/* Estiliza todos os parágrafos */
+p {
+    font-size: 1.5rem; /* Define o tamanho da fonte dos parágrafos para 1.5rem */
+}
+
+/* Estiliza os campos de input */
+input {
+    padding: 5px; /* Adiciona 5px de preenchimento dentro dos campos de input */
+}
+
+/* Adiciona preenchimento ao redor dos campos de formulário */
+.form {
+    padding: 10px; /* Adiciona 10px de preenchimento ao redor de cada campo de formulário */
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: rgb(91, 167, 202); /* Define a cor de fundo para o rodapé como um tom de azul claro */
+    padding: 10px; /* Adiciona 10px de preenchimento dentro do rodapé */
+    text-align: center; /* Centraliza o texto dentro do rodapé */
 }
