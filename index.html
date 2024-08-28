@@ -3,29 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Portfolio</title>
+    
+    <!-- Link para o arquivo de estilo CSS externo -->
     <link rel="stylesheet" href="style.css" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
     <link
       href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
+    <!-- Cabeçalho da página contendo o menu de navegação -->
     <header>
       <nav>
+        <!-- Links de navegação para diferentes seções da página -->
         <a href="#sobre">SOBRE MIM</a>
         <a href="#formacao">FORMACAO</a>
         <a href="#projetos">PROJETOS</a>
         <a href="#contato">CONTATO</a>
       </nav>
     </header>
+    
+    <!-- Div que contém todo o conteúdo principal da página -->
     <div class="tudo">
+      <!-- Cabeçalho de boas-vindas -->
       <h1 class="bemvindo">Olá, Bem vindo ao meu Portfolio!</h1>
       <br />
+      
+      <!-- Seção sobre mim -->
       <h1 id="sobre">Sobre Mim</h1>
-
       <p>
         Me chamo Felipe Augusto de Almeida, tenho 25 anos e sou estudante de
         ADS. <br />
@@ -33,6 +44,8 @@
         musculação.
       </p>
       <br />
+      
+      <!-- Seção de formação acadêmica e profissional -->
       <h1 id="formacao">Formacao</h1>
       <p>Cursando ADS - Uninter 2 Semestre</p>
       <p>
@@ -41,32 +54,46 @@
       </p>
       <p>Curso profissionalizante Senai - Informatica Basica</p>
       <br />
-
+      
+      <!-- Seção de projetos -->
       <h1 id="projetos">Projetos</h1>
       <br />
+      <!-- Link para um projeto específico -->
       <a class="calculadora" href="https://felipe242.github.io/Calculadora/"
         >Calculadora Simples hmtl, css e JS</a
       >
       <br /><br />
+      
+      <!-- Seção de contato -->
       <h1 id="contato">Contato</h1>
-
+      
+      <!-- Container que contém o formulário de contato -->
       <div class="container">
+        <!-- Campo para o nome -->
         <div class="form">
           <input  type="name" placeholder="Nome" />
         </div>
+        
+        <!-- Campo para o email -->
         <div class="form">
           <input type="email" placeholder="Email" />
         </div>
+        
+        <!-- Campo para a mensagem -->
         <div class="form">
           <input type="message" placeholder="mensagem" />
         </div>
+        
+        <!-- Botão de envio -->
         <div class="form">
           <input type="button" value="enviar" />
         </div>
       </div>
     </div>
+    
+    <!-- Rodapé da página -->
+    <footer>
+      <h1>Desenvolvido por @Felipe Almeida</h1>
+    </footer>
   </body>
-  <footer>
-    <h1>Desenvolvido por @Felipe Almeida</h1>
-  </footer>
 </html>
